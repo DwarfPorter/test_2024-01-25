@@ -9,6 +9,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Toast.makeText(this,"Привет,мир", Toast.LENGTH_SHORT).show()
+
+        // Это комментарий
+        Toast.makeText(this, "Привет!", Toast.LENGTH_SHORT).show();
+
+ 
     }
 }
